@@ -1,0 +1,16 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "ETS"
+    },
+    {
+      "id": 2,
+      "name": "ETS2"
+    },
+    {
+      "id": 3,
+      "name": "ATS"
+    }
+  ]
+}

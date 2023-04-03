@@ -84,3 +84,21 @@ arr4.unshift('a1', 'a2');
 
 debug(arr4);
 
+
+
+// const arr5 = [8,9,2,6,3,7,4,1,2,7,9,4];
+
+const arr5 = ['Helicopter', 'Toyota', 'BMW', 'Mercedez', 'Audi', 'Toyota', 'Nissan', 'Ferrari', 'Ferrari', 'BMW', 'Audi', 'Audi']
+
+
+console.log('---- arr5', arr5);
+
+const uniqueArr5 = [...new Set(arr5)];
+
+console.log('---- new Set(arr5)', new Set(arr5));
+console.log('---- uniqueArr5', uniqueArr5);
+console.log('---- uniqueArr5.sort()', uniqueArr5.sort());
+
+
+console.log('---- uniqueArr5.sort() DESC',
+uniqueArr5.sort((a, b) => (a > b ? -1 : 1)));
